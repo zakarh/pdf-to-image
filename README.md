@@ -14,7 +14,7 @@ Convert a PDF document into a ZIP of JPGs
 
 ## Using the Application
 
-1. Visit http://localhost:80.
+1. Visit http://localhost:5000.
 2. Browse and select a PDF.
 3. Press Submit and the PDF will be uploaded for conversion.
 4. Once done wait for the ZIP file to download.

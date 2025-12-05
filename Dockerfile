@@ -18,7 +18,7 @@ COPY /app /app
 WORKDIR /app
 
 # Expose ports.
-EXPOSE 80
+EXPOSE 5000
 
 # Startup server with Gunicorn binded to the specified host:port.
 CMD [ "gunicorn", "-c", "gunicorn_config.py", "wsgi:app" ]
